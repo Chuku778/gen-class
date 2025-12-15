@@ -169,9 +169,29 @@ section {
 .thumbnail {
     border-radius: 20px;
     width: 300px;
+    position: relative;
 }
+.time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    left: 260px;
+    top: 230px;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+
+    /* position: absolute;
+    border: none;
+    background-color: aquamarine;
+    color: aquamarine;
+    border-radius: 4px;
+    right: 29px;
+    top: 257px;
+    width: 44px;
+} 
 .thumbnail:hover {
-    border-radius: 0px;
+    border-radius: 0px; */
 }
 
 .video-sub {
@@ -198,5 +218,17 @@ section {
     padding-left: 0%; 
     align-items: center;        
     }
-}  
+    .thumbnail {
+        width: 170px;
+    }
+    .video-title 
+{
+    font-size: 15px;
+}
+.video-channel {
+   font-size: 15px; 
+}
+    
 
+
+}
